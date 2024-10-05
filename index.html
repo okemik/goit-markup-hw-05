@@ -52,7 +52,7 @@
       <section class="section-1">
         <div class="container">
           <h1 class="header-1"> Effective Solutions for Your Business </h1>
-          <button class="cta-button">Order Service</button>
+          <a href="#order-modal" class="cta-button">Order Service</a>
         </div>
       </section>
       <section class="section-2">
@@ -541,6 +541,7 @@
                 type="email"
                 placeholder="E-mail"
             /></label>
+
             <button class="footer-subs-btn" type="submit">
               Subscribe
               <svg class="footer-subs-btn-icon" width="24" height="24">
@@ -551,13 +552,13 @@
         </div>
       </div>
     </footer>
-    <div class="order-modal-container is-open">
+    <div id="order-modal" class="order-modal-container">
       <div class="modal-wrapper">
-        <button class="order-modal-close-btn" type="button">
+        <a href="#" class="order-modal-close-btn">
           <svg class="order-modal-close-x-icon" width="8" height="8">
             <use href="./images/symbols.svg#icon-close"></use>
           </svg>
-        </button>
+        </a>
 
         <p class="order-modal-text">
           Leave your contacts and we will call you back
